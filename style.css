@@ -23,7 +23,7 @@ h1 {
     padding: 20px;
     border-radius: 20px;
     background-color: #f1f5f8;
-    max-width: 450px;
+    max-width: 400px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -52,7 +52,7 @@ button:hover {
     background-color: #7d9dc5a8;
     cursor: pointer;
     transform: scale(1.025);
-    transition: border 300ms, background-color 300ms, transform 300ms;
+    transition: 300ms;
 }
 
 #increase {
