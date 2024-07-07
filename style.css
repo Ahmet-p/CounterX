@@ -1,8 +1,12 @@
 body {
-    background: linear-gradient(135deg, #687a8f, #216b6b);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    margin: 250px;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #687a8f, #216b6b) no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h1 {
@@ -14,14 +18,13 @@ h1 {
     font-weight: lighter;
 }
 
-.counter-container{
+.counter-container {
     text-align: center;
-    padding: 20px 20px;
-    margin: auto;
+    padding: 20px;
     border-radius: 20px;
     background-color: #f1f5f8;
     max-width: 450px;
-
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 #value {
@@ -47,7 +50,6 @@ h1 {
 button:hover {
     border: 1px solid black;
     background-color: #7d9dc5a8;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     cursor: pointer;
     transform: scale(1.025);
     transition: border 300ms, background-color 300ms, transform 300ms;
