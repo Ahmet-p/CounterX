@@ -8,7 +8,7 @@ let value = document.getElementById("value");
         } else if (count < 0) {
                 value.style.color = "#f15f";
         } else {
-                value.style.color = "#20528aa8";
+                value.style.color = "#cecece";
         }
     }
 
