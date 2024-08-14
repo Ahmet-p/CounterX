@@ -4,7 +4,7 @@ let value = document.getElementById("value");
 
     function colorChanger() {
         if (count > 0) {
-                value.style.color = "rgb(24, 175, 24)";
+                value.style.color = "#42db69";
         } else if (count < 0) {
                 value.style.color = "#f15f";
         } else {
